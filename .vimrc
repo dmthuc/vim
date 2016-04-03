@@ -1,3 +1,4 @@
+" create a file name .vimrc in your home folder and then copy-paste
 " enable highlight search
 set hlsearch
 " enable line number
