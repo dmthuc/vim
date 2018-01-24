@@ -1,4 +1,6 @@
 " create a file name .vimrc in your home folder and then copy-paste
+" enable find in subdirectory
+set path+=**
 " enable highlight search
 set hlsearch
 " enable line number
