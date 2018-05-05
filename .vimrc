@@ -15,6 +15,8 @@ set tabstop=4
 set shiftwidth=4
 " Sets the number of columns for a TAB
 set softtabstop=4
+" Enable syntax highlight
+syntax on
 " Expand TABs to spaces
 set expandtab
 " Highlight selected tab
