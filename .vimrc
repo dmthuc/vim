@@ -67,3 +67,4 @@ if exists("+showtabline")
     highlight link TabNum Special
 endif
 
+inoremap jk <Esc>`^
