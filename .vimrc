@@ -67,7 +67,6 @@ if exists("+showtabline")
     highlight link TabNum Special
 endif
 
-inoremap jk <Esc>`^
 
 " Return indent (all whitespace at start of a line), converted from
 " tabs to spaces if what = 1, or from spaces to tabs otherwise.
