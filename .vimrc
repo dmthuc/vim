@@ -1,4 +1,6 @@
 " create a file name .vimrc in your home folder and then copy-paste
+" save local mark https://www.linux.com/news/vim-tips-moving-around-using-marks-and-jumps/
+set viminfo='100,f1
 " enable find in subdirectory
 set path+=**
 " enable highlight search
@@ -66,7 +68,6 @@ if exists("+showtabline")
     set showtabline=1
     highlight link TabNum Special
 endif
-
 
 " Return indent (all whitespace at start of a line), converted from
 " tabs to spaces if what = 1, or from spaces to tabs otherwise.
