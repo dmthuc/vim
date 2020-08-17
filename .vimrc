@@ -98,3 +98,5 @@ command! -nargs=? -range=% Space2Tab call IndentConvert(<line1>,<line2>,0,<q-arg
 command! -nargs=? -range=% Tab2Space call IndentConvert(<line1>,<line2>,1,<q-args>)
 command! -nargs=? -range=% RetabIndent call IndentConvert(<line1>,<line2>,&et,<q-args>)
 command DelTrailingSpace %s/\s\+$//e
+" Execute the content of current line in shell
+nmap <F6> :exec '!'.getline('.')
