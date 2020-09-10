@@ -100,3 +100,8 @@ command! -nargs=? -range=% RetabIndent call IndentConvert(<line1>,<line2>,&et,<q
 command DelTrailingSpace %s/\s\+$//e
 " Execute the content of current line in shell
 nmap <F6> :exec '!'.getline('.')
+" Type gl to go to last active tab
+au TabLeave * let g:lasttab = tabpagenr()
+nnoremap <silent> gl :exe "tabn ".g:lasttab<cr>
+vnoremap <silent> gl :exe "tabn ".g:lasttab<cr>
+
