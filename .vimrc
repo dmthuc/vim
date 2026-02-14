@@ -283,7 +283,7 @@ command TmuxNote vsplit /Users/daominhthuc/.local/share/vim_book/TmuxNote.txt
 command CnchMath vsplit /Users/daominhthuc/.local/share/vim_book/CnchMath.txt
 command CnchRule vsplit /Users/daominhthuc/.local/share/vim_book/CnchMagic.txt
 command CodeCache vsplit /Users/daominhthuc/.local/share/vim_book/CodeCache.txt
-command Sso ! echo "Crocodile!23" | pbcopy
+command Sso ! echo "balads" | pbcopy
 command Zsh tabe ~/.zshrc   
 command Vimrc tabe ~/.vimrc
 command Ssh tabe ~/.ssh/config
